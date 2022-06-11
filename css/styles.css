@@ -1,0 +1,454 @@
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-accent-color: #FFFFFF;
+}
+
+body{
+    background-color: var(--second-accent-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+}
+.list{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+} 
+a{
+    text-decoration: none;
+}
+h1, h2, h3, p, ul{
+    margin: 0;
+}
+img{
+display: block;
+max-width: 100%;
+height: auto;
+}
+.header{
+    background: var(--second-accent-color);
+   
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /*outline: 2px solid red;*/
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+   
+}
+.logo-header{
+
+    padding: 0px;
+    margin: 0px;
+    
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo-span{
+    color: var(--accent-color);
+
+}
+.my-mail {
+    fill: currentColor;
+  }
+.list .contacts{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.02em;
+}
+.contacts:hover, 
+.contacts:focus{
+    color: var(--accent-color);
+}
+/* nav */
+.control{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.88;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.control:hover, 
+.control:focus{
+    color: var(--accent-color);
+}
+.current{
+    color: var(--accent-color);
+}
+.site-nav{
+    display: flex;
+    margin-left: 93px;
+   
+}
+
+.site-nav .item:not(:last-child){
+    margin-right: 50px;
+}
+/* auth-nav*/
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+    
+
+
+}
+.auth-nav .item + .item{
+    margin-left: 50px;
+}
+.auth-nav .contacts{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* hero */
+.hero{
+    background: #2F303A;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 0px;
+}
+.hero-title{
+    Width:696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    color: var(--second-accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+/* button */
+button{
+    font-family: inherit;
+    display: inline-block;
+}
+
+.butoon-secondary{
+    cursor: pointer;
+    padding: 6px 22px;
+    min-width: 73px;
+    border: transparent;
+   
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;
+    letter-spacing: 0.03em;
+}
+.button-primari{
+    
+    padding: 10px 32px;
+    border-radius: 4px;
+    min-width: 200px;
+    height: 50px;
+    border: transparent;
+
+    color: var(--second-accent-color);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+}
+.butoon-secondary:hover,
+.butoon-secondary:focus{
+    color: var(--second-accent-color);
+    background-color: var(--accent-color) ;
+}
+/* section */
+.benefits-box{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+ 
+}
+.feature-list{
+    display: flex;
+}
+.feature-list .feature-benefits:not(:last-child){
+    margin-right: 30px;
+}
+.section-benefits{
+    padding-bottom: 47px;
+}
+.benefits-title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.benefits-text{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.picture-title{
+display: flex;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+.section-picture{
+    padding-top: 47px;
+}
+.picture{
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.picture-title .piction-cart:not(:last-child){
+    margin-right: 30px;
+}
+.piction-cart{
+    width: 370px;
+    height: 294px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.picture-title{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    color: var(--title-text-color);
+    background:#F5F4FA;
+}
+.team-card{
+    display: flex;
+   justify-content:space-around;
+margin-left: auto;
+margin-right: auto;
+
+}
+.card{
+    margin-top: 0px;
+    margin-bottom: 0px
+
+    width: 270px;
+    background-color: var(--second-accent-color);
+}
+.team-card .cart:not(:last-child){
+    margin-right: 30px;
+}
+.card .foto{  
+    width: 270px;
+    overflow: hidden;
+  
+}
+.cart .cart-text{
+    display: flex;
+    flex-direction: column;
+  
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.cart-text{
+    text-align: center;
+    padding: 30px 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px
+  
+    
+}
+.team-title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+   
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+}
+
+.ection-title{
+    background-color: #F5F4FA;
+}
+.about-team{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.feature-list .title{
+    color: var(--title-text-color);
+}
+.portfolio-name{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+/*portfolio*/
+.portfolio-about{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+.portfolio-title{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+
+
+}
+.portfolio-button:not(:last-child){
+    margin-right: 8px;
+}
+
+
+.section-portfolio{
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: var(--second-accent-color);
+  
+}
+.text-container{
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+/* cart product*/
+
+.cart-product{
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.cart-product:nth-child(3n){
+    margin-right: 0;
+}
+
+.product-box{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
+}
+/* footer */
+.fooret{
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-footer{
+    display: block;
+    color: var(--second-accent-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+ 
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.address{
+    color: var(--second-accent-color);
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    
+}
+.address-contacts{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 9px;
+    
+
+}
+.address-contacts:hover, 
+.address-contacts:focus{
+    color: var(--accent-color);
+
+}
+
+/* второй цвет текста #212121 */
+/* основной цвет текста #757575 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
