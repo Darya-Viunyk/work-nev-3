@@ -28,6 +28,7 @@ height: auto;
 }
 .header{
     background: var(--second-accent-color);
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
    
 }
 .container{
@@ -385,6 +386,8 @@ margin-bottom: 50px;
 .text-container{
     display: flex;
     flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
  
 }
 /* cart product*/
@@ -394,9 +397,7 @@ margin-bottom: 50px;
     margin-bottom: 30px;
 }
 
-.cart-product:nth-child(3n){
-    margin-right: 0;
-}
+
 
 .product-box{
     padding: 20px 24px;
